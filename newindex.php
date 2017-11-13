@@ -1,3 +1,14 @@
+<?php
+    /**
+     * newclass
+     */
+    class newClass
+    {
 
-loremm
-hahahahah
+      static function newFunc($name)
+      {
+        echo "hello {$name}";
+      }
+    }
+newClass::newFunc(Andrey);
+ ?>
