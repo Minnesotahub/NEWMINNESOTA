@@ -5,16 +5,17 @@
 class newName
 {
   private static $name;
-  static function setName($changename)
+  static function setName($newname)
   {
-    self::$name = $changename;
+    self::$name = $newname;
   }
-  static function getName()
+  static function  getName()
   {
     return self::$name;
   }
 }
-newName::setName(lalaland);
+
+newName::setName(Andrey);
 echo newName::getName();
-echo 'fuck offcas';
+
  ?>
