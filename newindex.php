@@ -2,18 +2,20 @@
     /**
      * newclass
      */
-    class newClass
+    class Name
     {
-
-      static function newFunc($name)
+      private static $name;
+      static function nameSet($namefrom)
       {
-        echo "hello {$name}";
+        self::$name = $namefrom;
+      }
+      static function nameGet()
+      {
+        return self::$name;
       }
     }
-newClass::newFunc(Andrey);
-$newclass = new newClass;
-$newclass->newFunc(haha);
-newClass::newFunc(Sergey);
-newClass::newFunc(haha);
+
+    Name::nameSet(Andrey);
+    echo Name::nameGet();
 
  ?>
