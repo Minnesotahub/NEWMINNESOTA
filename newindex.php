@@ -16,5 +16,4 @@ class newName
 }
 newName::setName(lalaland);
 echo newName::getName();
-echo newName::getName();
  ?>
