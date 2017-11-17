@@ -1,21 +1,19 @@
 <?php
-    /**
-     * newclass
-     */
-    class Name
-    {
-      private static $name;
-      static function nameSet($namefrom)
-      {
-        self::$name = $namefrom;
-      }
-      static function nameGet()
-      {
-        return self::$name;
-      }
-    }
-
-    Name::nameSet(Andrey);
-    echo Name::nameGet();
-
+/**
+ * new ClassName
+ */
+class newName
+{
+  private static $name;
+  static function setName($changename)
+  {
+    self::$name = $changename;
+  }
+  static function getName()
+  {
+    return self::$name;
+  }
+}
+newName::setName(lalaland);
+echo newName::getName();
  ?>
