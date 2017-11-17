@@ -14,5 +14,6 @@ newClass::newFunc(Andrey);
 $newclass = new newClass;
 $newclass->newFunc(haha);
 newClass::newFunc(Sergey);
+newClass::newFunc(haha);
 
  ?>
